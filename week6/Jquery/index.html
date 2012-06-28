@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<style type="text/css">
+#box 
+	{
+		background: orange;
+		width: 300px;
+		height: 300px;
+		
+	}
+</style>
+<script type="text/javascript">
+$(function()  {
+	$('#a').click(function() {
+		$('#box').fadeOut();
+	});
+	
+
+});
+$(function()  {
+	$('#b').click(function() {
+		$('#box').fadeIn();
+	});
+	
+
+});
+$(function()  {
+	$('#c').click(function() {
+		$('#box').css('background', 'yellow');
+
+	});
+
+
+});
+$(function()  {
+	$('#d').click(function() {
+		$('#box').css('background', 'orange');
+	});
+	
+
+});
+
+
+</script>
+</head>
+
+<body>
+<div id="box"></div>
+<a id="a" href="#a">fadeout</a><br />
+<a id="b" href="#b">Fadein</a><br />
+<a id="c" href="#c">yello</a><br />
+<a id="d" href="#d">orange</a>
+</body>
+</html>
