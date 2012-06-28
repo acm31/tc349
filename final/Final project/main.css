@@ -1,0 +1,193 @@
+
+html {
+	}
+	
+
+body { 
+font: 50% georgia, sans-serif;
+line-height: 1.88889;
+alignment-adjust: right; 
+background-color: #09C; 
+background-image: url(images/background.png); 
+background-position: absolute;  
+bottom: 20px; 
+padding: 0px; 
+margin: 0px;   
+}
+
+#container { 
+
+padding:  0 10px 0 10px;  
+
+} 
+
+p { 
+	margin-top: 0; 
+	text-align: justify; 
+	
+	}
+
+h3 { 
+	font: 15px helvetica, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #000;
+	text-align:center;
+	padding: 5px;  
+	}
+
+#pageHeader h1 { 
+	background: url(images/title.png) no-repeat;  
+	margin-top: 10px;
+	margin-bottom: 50px;  
+	width: 500px; 
+	height: 250px;
+	position: relative; 
+	top: -80px; 
+	right: -240px; 
+	padding: 10px; 
+
+	}
+	
+#pageHeader h1 span {
+	display:none
+	}
+	
+	#pageHeader h2 { 
+	top: 30px; 
+	right: 100; 
+	position: relative;
+	}
+	
+#pageHeader h2 span {
+	display:none
+	}
+	
+	#quickSummary { 
+	position: relative;
+	bottom: 235px; 
+	}
+	
+	#quickSummary p {
+	font: italic 10pt/22pt georgia; 
+	}
+	
+
+
+
+
+
+
+#mainnav { 
+
+padding-top: 500px;
+	 
+
+
+} 
+
+#linkList {
+	margin-left: 200px; 
+	width: 175px; 
+	height: 600px; 
+	position: fixed; 
+	left: -190px; 
+	top: 110px; 
+	background-image: url(images/sidenav%20copy.png); 
+	background-repeat: no-repeat; 
+    font-weight: bold; 
+	padding-top: 275px; 
+
+ 
+
+} 
+	
+	
+	#linkList li {
+		list-style-type:none;
+	line-height: 2.5ex; 
+ margin-bottom: 5px;
+ padding-top: 2px; 
+ list-style-type: none;
+	 
+	} 
+	
+	#linkList2 { 
+	font: 12px verdana, sans-serif;  
+
+	}
+	
+	
+	
+	
+	
+	
+	a:hover, a:active { 
+	text-decoration: none;  
+	color: #F90;
+
+	}
+	
+	
+	#linkList li a:link {
+	color: #c04018;
+	list-style:none; 
+	
+	}
+#linkList li a:visited {
+	color: #B3AE94;
+
+	}
+	
+	
+	#photo { 
+	margin: auto; 
+	width:1200px; 
+	height: 200px; 
+	position: relative; 
+	left: -350px; 
+	top: -20px; 
+
+	
+	} 
+	
+	#photo2 { 
+	margin: auto; 
+	width:500px; 
+	height: 200px; 
+	position: relative; 
+	left: 0px; 
+	top: -20px; 
+
+	
+	} 
+	
+
+
+div.transbox
+  {
+	margin-right: auto;
+	margin-top:auto; 
+	border-style:solid;
+	margin-bottom: auto; 
+	position: relative; 
+	top: -120px; 
+	right: -190px; 
+width: 500px;
+  height:500px;
+  margin:10px 50px;
+  background-color:#ffffff;
+  border:1px solid black;
+  opacity:0.7;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+  }
+
+
+div.transbox p
+  {
+  margin:10px 40px;
+  font-weight:bold;
+  color:#000000;
+  padding: 5px; 
+  }
+  
